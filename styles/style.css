@@ -1,0 +1,75 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.top-bar {
+    width: 100%;
+    background: #0a3c64;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* MENÚ */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* ICONOS */
+.icons img {
+    width: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* TÍTULO OFERTAS */
+.titulo-ofertas {
+    text-align: center;
+    padding: 20px 0;
+    background: #1f4b7a;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* GRID OFERTAS */
+.ofertas-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}

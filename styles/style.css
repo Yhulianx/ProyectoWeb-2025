@@ -158,3 +158,8 @@
     opacity: 0.7;
     letter-spacing: 0.5px;
 }
+.logo a img {
+    height: 75px; 
+    max-width: 100%; /* Asegura que no se salga del contenedor */
+    vertical-align: middle;
+}

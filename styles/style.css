@@ -102,12 +102,9 @@
     filter: brightness(1.15);
 }
 
-
-
-
 /* Texto de las cards */
 .card p {
-    margin-top: 10px;
+    margin-top: 28px;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
@@ -138,6 +135,7 @@
     margin-bottom: 20px;
     font-weight: bold;
     letter-spacing: 1px;
+    color: white;
 }
 
 .footer-column p,
@@ -146,6 +144,7 @@
     opacity: 0.85;
 }
 
+/* LISTAS DEL FOOTER */
 .footer-column ul {
     list-style: none;
     padding: 0;
@@ -156,8 +155,10 @@
 }
 
 .footer-column ul li a {
+    color: white !important;     /* ← ARREGLO PRINCIPAL */
     text-decoration: none;
     transition: 0.3s;
+    opacity: 0.85;
 }
 
 .footer-column ul li a:hover {
